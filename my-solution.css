@@ -88,4 +88,40 @@
 
 /* ESERCIZIO 9 */
 
-.ex-9-img
+.ex-9-img{
+    transition: 5s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1);
+    border-radius: 20px;
+    transform: scale(.6);
+}
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+    animation: ruota 5s linear infinite;
+}
+@keyframes ruota {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover {
+    animation: ruota 5s linear;
+}
+@keyframes ruota {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
